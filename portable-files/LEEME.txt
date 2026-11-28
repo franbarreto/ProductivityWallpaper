@@ -1,0 +1,39 @@
+PRODUCTIVITY WALLPAPER - VERSION PORTABLE
+=========================================
+
+Como usarla
+-----------
+1. Copia esta carpeta completa donde quieras (escritorio, pendrive, etc.).
+2. Haz doble clic en  Iniciar.bat  (o directamente en ProductivityWallpaper.exe).
+3. No hace falta instalar nada. Para desinstalarla, cierra la app desde el
+   icono de la bandeja (Salir) y borra la carpeta.
+
+Tus datos
+---------
+Las preferencias y el registro de errores se guardan en la subcarpeta  Data
+de esta misma carpeta (por el archivo portable.flag). No se escribe nada en
+tu perfil de Windows. Si borras portable.flag, la app guarda sus datos en
+%LOCALAPPDATA%\ProductivityWallpaper como una instalacion normal.
+
+Dos versiones
+-------------
+ - Autonoma: incluye todo lo que necesita (pesa mas). Funciona en cualquier
+   Windows 10/11 de 64 bits sin instalar nada.
+ - Liviana: pesa poco, pero necesita el "Runtime de escritorio de .NET 8"
+   (https://dotnet.microsoft.com/download/dotnet/8.0). Si el .exe esta
+   bloqueado, Iniciar.bat la abre a traves de "dotnet".
+
+Si Windows dice "Acceso denegado" al abrir el .exe
+--------------------------------------------------
+Es una politica de seguridad de tu equipo (por ejemplo, la regla de
+Microsoft Defender que bloquea ejecutables nuevos o poco conocidos). No es un
+error de la app y no se puede evitar desde la app. Opciones:
+ - Usar la version Liviana con Iniciar.bat (abre via "dotnet").
+ - Pedir al administrador que permita esta carpeta o el .exe.
+ - Probarla en otro equipo sin esa restriccion.
+
+Seguridad
+---------
+La app no usa internet, no pide permisos de administrador y no recopila
+datos. Solo cambia el fondo de pantalla con imagenes que viajan en su propia
+carpeta Content.

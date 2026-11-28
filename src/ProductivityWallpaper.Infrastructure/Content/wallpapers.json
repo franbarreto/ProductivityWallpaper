@@ -1,0 +1,1050 @@
+[
+  {
+    "Id": "es-001",
+    "Language": "Es",
+    "Quote": "La disciplina es la forma más alta de amor propio.",
+    "Author": null,
+    "Categories": [
+      "Discipline"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/es/es-001.jpg"
+  },
+  {
+    "Id": "es-002",
+    "Language": "Es",
+    "Quote": "No controlás lo que pasa, controlás cómo respondés.",
+    "Author": null,
+    "Categories": [
+      "Discipline",
+      "Stoicism"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/es/es-002.jpg"
+  },
+  {
+    "Id": "es-003",
+    "Language": "Es",
+    "Quote": "Empezá antes de sentirte listo.",
+    "Author": null,
+    "Categories": [
+      "Motivation"
+    ],
+    "Style": "Abstract",
+    "ImagePath": "Content/Wallpapers/es/es-003.jpg"
+  },
+  {
+    "Id": "es-004",
+    "Language": "Es",
+    "Quote": "Un paso hoy vale más que diez mañana.",
+    "Author": null,
+    "Categories": [
+      "Motivation",
+      "Productivity"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/es/es-004.jpg"
+  },
+  {
+    "Id": "es-005",
+    "Language": "Es",
+    "Quote": "Lo que no mirás, se te escapa.",
+    "Author": null,
+    "Categories": [
+      "Focus"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/es/es-005.jpg"
+  },
+  {
+    "Id": "es-006",
+    "Language": "Es",
+    "Quote": "La concentración es un músculo: entrenala.",
+    "Author": null,
+    "Categories": [
+      "Focus",
+      "Study"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/es/es-006.jpg"
+  },
+  {
+    "Id": "es-007",
+    "Language": "Es",
+    "Quote": "Aprender es la única inversión que nadie te puede quitar.",
+    "Author": null,
+    "Categories": [
+      "Study"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/es/es-007.jpg"
+  },
+  {
+    "Id": "es-008",
+    "Language": "Es",
+    "Quote": "El trabajo silencioso construye lo que se nota después.",
+    "Author": null,
+    "Categories": [
+      "Work"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/es/es-008.jpg"
+  },
+  {
+    "Id": "es-009",
+    "Language": "Es",
+    "Quote": "Hacé lo importante antes de lo urgente.",
+    "Author": null,
+    "Categories": [
+      "Work",
+      "Productivity"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/es/es-009.jpg"
+  },
+  {
+    "Id": "es-010",
+    "Language": "Es",
+    "Quote": "El cuerpo también escucha tu palabra.",
+    "Author": null,
+    "Categories": [
+      "Training"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/es/es-010.jpg"
+  },
+  {
+    "Id": "es-011",
+    "Language": "Es",
+    "Quote": "No es motivación, es rutina.",
+    "Author": null,
+    "Categories": [
+      "Training",
+      "Discipline"
+    ],
+    "Style": "Abstract",
+    "ImagePath": "Content/Wallpapers/es/es-011.jpg"
+  },
+  {
+    "Id": "es-012",
+    "Language": "Es",
+    "Quote": "Menos tareas, más terminadas.",
+    "Author": null,
+    "Categories": [
+      "Productivity"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/es/es-012.jpg"
+  },
+  {
+    "Id": "es-013",
+    "Language": "Es",
+    "Quote": "Lo que depende de vos, hacelo bien. Lo demás, soltalo.",
+    "Author": null,
+    "Categories": [
+      "Stoicism"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/es/es-013.jpg"
+  },
+  {
+    "Id": "es-014",
+    "Language": "Es",
+    "Quote": "La calma no es ausencia de tormenta: es dominio de ella.",
+    "Author": null,
+    "Categories": [
+      "Stoicism",
+      "Focus"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/es/es-014.jpg"
+  },
+  {
+    "Id": "es-015",
+    "Language": "Es",
+    "Quote": "Confiá en el proceso aunque todavía no veas el final.",
+    "Author": null,
+    "Categories": [
+      "Faith"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/es/es-015.jpg"
+  },
+  {
+    "Id": "es-016",
+    "Language": "Es",
+    "Quote": "Cada día es una nueva oportunidad para ser mejor.",
+    "Author": null,
+    "Categories": [
+      "Faith",
+      "SelfImprovement"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/es/es-016.jpg"
+  },
+  {
+    "Id": "es-017",
+    "Language": "Es",
+    "Quote": "Compará tu hoy con tu ayer, no con el de otro.",
+    "Author": null,
+    "Categories": [
+      "SelfImprovement"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/es/es-017.jpg"
+  },
+  {
+    "Id": "es-018",
+    "Language": "Es",
+    "Quote": "Crecer incomoda. Quedarte igual, también.",
+    "Author": null,
+    "Categories": [
+      "SelfImprovement",
+      "Motivation"
+    ],
+    "Style": "Abstract",
+    "ImagePath": "Content/Wallpapers/es/es-018.jpg"
+  },
+  {
+    "Id": "es-019",
+    "Language": "Es",
+    "Quote": "La constancia le gana al talento que no se presenta.",
+    "Author": null,
+    "Categories": [
+      "Discipline",
+      "Work"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/es/es-019.jpg"
+  },
+  {
+    "Id": "es-020",
+    "Language": "Es",
+    "Quote": "Una cosa a la vez, bien hecha.",
+    "Author": null,
+    "Categories": [
+      "Focus",
+      "Productivity"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/es/es-020.jpg"
+  },
+  {
+    "Id": "en-001",
+    "Language": "En",
+    "Quote": "Discipline is the highest form of self-respect.",
+    "Author": null,
+    "Categories": [
+      "Discipline"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/en/en-001.jpg"
+  },
+  {
+    "Id": "en-002",
+    "Language": "En",
+    "Quote": "You don't control what happens, only how you respond.",
+    "Author": null,
+    "Categories": [
+      "Discipline",
+      "Stoicism"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/en/en-002.jpg"
+  },
+  {
+    "Id": "en-003",
+    "Language": "En",
+    "Quote": "Start before you feel ready.",
+    "Author": null,
+    "Categories": [
+      "Motivation"
+    ],
+    "Style": "Abstract",
+    "ImagePath": "Content/Wallpapers/en/en-003.jpg"
+  },
+  {
+    "Id": "en-004",
+    "Language": "En",
+    "Quote": "One step today beats ten tomorrow.",
+    "Author": null,
+    "Categories": [
+      "Motivation",
+      "Productivity"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/en/en-004.jpg"
+  },
+  {
+    "Id": "en-005",
+    "Language": "En",
+    "Quote": "What you don't watch slips away.",
+    "Author": null,
+    "Categories": [
+      "Focus"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/en/en-005.jpg"
+  },
+  {
+    "Id": "en-006",
+    "Language": "En",
+    "Quote": "Focus is a muscle. Train it.",
+    "Author": null,
+    "Categories": [
+      "Focus",
+      "Study"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/en/en-006.jpg"
+  },
+  {
+    "Id": "en-007",
+    "Language": "En",
+    "Quote": "Learning is the one investment no one can take from you.",
+    "Author": null,
+    "Categories": [
+      "Study"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/en/en-007.jpg"
+  },
+  {
+    "Id": "en-008",
+    "Language": "En",
+    "Quote": "Quiet work builds what gets noticed later.",
+    "Author": null,
+    "Categories": [
+      "Work"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/en/en-008.jpg"
+  },
+  {
+    "Id": "en-009",
+    "Language": "En",
+    "Quote": "Do what matters before what's urgent.",
+    "Author": null,
+    "Categories": [
+      "Work",
+      "Productivity"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/en/en-009.jpg"
+  },
+  {
+    "Id": "en-010",
+    "Language": "En",
+    "Quote": "Your body listens to what you tell it.",
+    "Author": null,
+    "Categories": [
+      "Training"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/en/en-010.jpg"
+  },
+  {
+    "Id": "en-011",
+    "Language": "En",
+    "Quote": "It's not motivation, it's routine.",
+    "Author": null,
+    "Categories": [
+      "Training",
+      "Discipline"
+    ],
+    "Style": "Abstract",
+    "ImagePath": "Content/Wallpapers/en/en-011.jpg"
+  },
+  {
+    "Id": "en-012",
+    "Language": "En",
+    "Quote": "Fewer tasks, more finished.",
+    "Author": null,
+    "Categories": [
+      "Productivity"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/en/en-012.jpg"
+  },
+  {
+    "Id": "en-013",
+    "Language": "En",
+    "Quote": "Do well what's up to you. Let the rest go.",
+    "Author": null,
+    "Categories": [
+      "Stoicism"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/en/en-013.jpg"
+  },
+  {
+    "Id": "en-014",
+    "Language": "En",
+    "Quote": "Calm isn't the absence of the storm, it's mastery over it.",
+    "Author": null,
+    "Categories": [
+      "Stoicism",
+      "Focus"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/en/en-014.jpg"
+  },
+  {
+    "Id": "en-015",
+    "Language": "En",
+    "Quote": "Trust the process even when you can't see the end.",
+    "Author": null,
+    "Categories": [
+      "Faith"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/en/en-015.jpg"
+  },
+  {
+    "Id": "en-016",
+    "Language": "En",
+    "Quote": "Every day is a new chance to be better.",
+    "Author": null,
+    "Categories": [
+      "Faith",
+      "SelfImprovement"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/en/en-016.jpg"
+  },
+  {
+    "Id": "en-017",
+    "Language": "En",
+    "Quote": "Compare your today to your yesterday, not to someone else's.",
+    "Author": null,
+    "Categories": [
+      "SelfImprovement"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/en/en-017.jpg"
+  },
+  {
+    "Id": "en-018",
+    "Language": "En",
+    "Quote": "Growth is uncomfortable. So is staying the same.",
+    "Author": null,
+    "Categories": [
+      "SelfImprovement",
+      "Motivation"
+    ],
+    "Style": "Abstract",
+    "ImagePath": "Content/Wallpapers/en/en-018.jpg"
+  },
+  {
+    "Id": "en-019",
+    "Language": "En",
+    "Quote": "Consistency beats talent that doesn't show up.",
+    "Author": null,
+    "Categories": [
+      "Discipline",
+      "Work"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/en/en-019.jpg"
+  },
+  {
+    "Id": "en-020",
+    "Language": "En",
+    "Quote": "One thing at a time, done well.",
+    "Author": null,
+    "Categories": [
+      "Focus",
+      "Productivity"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/en/en-020.jpg"
+  },
+  {
+    "Id": "es-021",
+    "Language": "Es",
+    "Quote": "Tienes poder sobre tu mente, no sobre los acontecimientos externos. Date cuenta de esto y encontrarás fortaleza.",
+    "Author": "Marco Aurelio",
+    "Categories": [
+      "Stoicism"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/es/es-021.jpg"
+  },
+  {
+    "Id": "es-022",
+    "Language": "Es",
+    "Quote": "No es que tengamos poco tiempo, sino que perdemos mucho.",
+    "Author": "Séneca",
+    "Categories": [
+      "Stoicism",
+      "Productivity"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/es/es-022.jpg"
+  },
+  {
+    "Id": "es-023",
+    "Language": "Es",
+    "Quote": "No son las cosas las que nos perturban, sino lo que pensamos de ellas.",
+    "Author": "Epicteto",
+    "Categories": [
+      "Stoicism",
+      "Focus"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/es/es-023.jpg"
+  },
+  {
+    "Id": "es-024",
+    "Language": "Es",
+    "Quote": "Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito.",
+    "Author": "Aristóteles",
+    "Categories": [
+      "Discipline",
+      "SelfImprovement"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/es/es-024.jpg"
+  },
+  {
+    "Id": "es-025",
+    "Language": "Es",
+    "Quote": "No importa cuán lento vayas, siempre que no te detengas.",
+    "Author": "Confucio",
+    "Categories": [
+      "Motivation",
+      "Discipline"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/es/es-025.jpg"
+  },
+  {
+    "Id": "es-026",
+    "Language": "Es",
+    "Quote": "Quien tiene un porqué para vivir puede soportar casi cualquier cómo.",
+    "Author": "Friedrich Nietzsche",
+    "Categories": [
+      "Motivation",
+      "SelfImprovement"
+    ],
+    "Style": "Abstract",
+    "ImagePath": "Content/Wallpapers/es/es-026.jpg"
+  },
+  {
+    "Id": "en-021",
+    "Language": "En",
+    "Quote": "You have power over your mind, not outside events. Realize this, and you will find strength.",
+    "Author": "Marcus Aurelius",
+    "Categories": [
+      "Stoicism"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/en/en-021.jpg"
+  },
+  {
+    "Id": "en-022",
+    "Language": "En",
+    "Quote": "It is not that we have a short time to live, but that we waste a lot of it.",
+    "Author": "Seneca",
+    "Categories": [
+      "Stoicism",
+      "Productivity"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/en/en-022.jpg"
+  },
+  {
+    "Id": "en-023",
+    "Language": "En",
+    "Quote": "Men are disturbed not by things, but by the views they take of them.",
+    "Author": "Epictetus",
+    "Categories": [
+      "Stoicism",
+      "Focus"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/en/en-023.jpg"
+  },
+  {
+    "Id": "en-024",
+    "Language": "En",
+    "Quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "Author": "Aristotle",
+    "Categories": [
+      "Discipline",
+      "SelfImprovement"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/en/en-024.jpg"
+  },
+  {
+    "Id": "en-025",
+    "Language": "En",
+    "Quote": "It does not matter how slowly you go, as long as you do not stop.",
+    "Author": "Confucius",
+    "Categories": [
+      "Motivation",
+      "Discipline"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/en/en-025.jpg"
+  },
+  {
+    "Id": "en-026",
+    "Language": "En",
+    "Quote": "He who has a why to live can bear almost any how.",
+    "Author": "Friedrich Nietzsche",
+    "Categories": [
+      "Motivation",
+      "SelfImprovement"
+    ],
+    "Style": "Abstract",
+    "ImagePath": "Content/Wallpapers/en/en-026.jpg"
+  },
+  {
+    "Id": "es-027",
+    "Language": "Es",
+    "Quote": "El trabajo bien hecho no necesita explicaciones.",
+    "Author": null,
+    "Categories": [
+      "Work"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/es/es-027.jpg"
+  },
+  {
+    "Id": "en-027",
+    "Language": "En",
+    "Quote": "Good work doesn't need explaining.",
+    "Author": null,
+    "Categories": [
+      "Work"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/en/en-027.jpg"
+  },
+  {
+    "Id": "es-028",
+    "Language": "Es",
+    "Quote": "No esperes motivación, esperá resultados.",
+    "Author": null,
+    "Categories": [
+      "Work"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/es/es-028.jpg"
+  },
+  {
+    "Id": "en-028",
+    "Language": "En",
+    "Quote": "Don't wait for motivation, wait for results.",
+    "Author": null,
+    "Categories": [
+      "Work"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/en/en-028.jpg"
+  },
+  {
+    "Id": "es-029",
+    "Language": "Es",
+    "Quote": "Hacé el trabajo. Las excusas no suman.",
+    "Author": null,
+    "Categories": [
+      "Work"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/es/es-029.jpg"
+  },
+  {
+    "Id": "en-029",
+    "Language": "En",
+    "Quote": "Do the work. Excuses don't add up.",
+    "Author": null,
+    "Categories": [
+      "Work"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/en/en-029.jpg"
+  },
+  {
+    "Id": "es-030",
+    "Language": "Es",
+    "Quote": "Cada página leída es un paso que no vas a desandar.",
+    "Author": null,
+    "Categories": [
+      "Study"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/es/es-030.jpg"
+  },
+  {
+    "Id": "en-030",
+    "Language": "En",
+    "Quote": "Every page you read is a step you won't walk back.",
+    "Author": null,
+    "Categories": [
+      "Study"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/en/en-030.jpg"
+  },
+  {
+    "Id": "es-031",
+    "Language": "Es",
+    "Quote": "Aprender hoy es ganarle tiempo al mañana.",
+    "Author": null,
+    "Categories": [
+      "Study"
+    ],
+    "Style": "Abstract",
+    "ImagePath": "Content/Wallpapers/es/es-031.jpg"
+  },
+  {
+    "Id": "en-031",
+    "Language": "En",
+    "Quote": "Learning today buys you time tomorrow.",
+    "Author": null,
+    "Categories": [
+      "Study"
+    ],
+    "Style": "Abstract",
+    "ImagePath": "Content/Wallpapers/en/en-031.jpg"
+  },
+  {
+    "Id": "es-032",
+    "Language": "Es",
+    "Quote": "El conocimiento que no se usa, se olvida.",
+    "Author": null,
+    "Categories": [
+      "Study"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/es/es-032.jpg"
+  },
+  {
+    "Id": "en-032",
+    "Language": "En",
+    "Quote": "Knowledge unused is knowledge forgotten.",
+    "Author": null,
+    "Categories": [
+      "Study"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/en/en-032.jpg"
+  },
+  {
+    "Id": "es-033",
+    "Language": "Es",
+    "Quote": "El cuerpo obedece a lo que repetís, no a lo que soñás.",
+    "Author": null,
+    "Categories": [
+      "Training"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/es/es-033.jpg"
+  },
+  {
+    "Id": "en-033",
+    "Language": "En",
+    "Quote": "The body obeys what you repeat, not what you dream.",
+    "Author": null,
+    "Categories": [
+      "Training"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/en/en-033.jpg"
+  },
+  {
+    "Id": "es-034",
+    "Language": "Es",
+    "Quote": "Un entrenamiento más, un yo más fuerte.",
+    "Author": null,
+    "Categories": [
+      "Training"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/es/es-034.jpg"
+  },
+  {
+    "Id": "en-034",
+    "Language": "En",
+    "Quote": "One more session, one stronger you.",
+    "Author": null,
+    "Categories": [
+      "Training"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/en/en-034.jpg"
+  },
+  {
+    "Id": "es-035",
+    "Language": "Es",
+    "Quote": "La constancia construye lo que la intensidad no puede sostener.",
+    "Author": null,
+    "Categories": [
+      "Training"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/es/es-035.jpg"
+  },
+  {
+    "Id": "en-035",
+    "Language": "En",
+    "Quote": "Consistency builds what intensity can't sustain.",
+    "Author": null,
+    "Categories": [
+      "Training"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/en/en-035.jpg"
+  },
+  {
+    "Id": "es-036",
+    "Language": "Es",
+    "Quote": "Confiá en el proceso, aunque todavía no veas el resultado.",
+    "Author": null,
+    "Categories": [
+      "Faith"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/es/es-036.jpg"
+  },
+  {
+    "Id": "en-036",
+    "Language": "En",
+    "Quote": "Trust the process, even before you see the result.",
+    "Author": null,
+    "Categories": [
+      "Faith"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/en/en-036.jpg"
+  },
+  {
+    "Id": "es-037",
+    "Language": "Es",
+    "Quote": "La fe no elimina la duda, la acompaña.",
+    "Author": null,
+    "Categories": [
+      "Faith"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/es/es-037.jpg"
+  },
+  {
+    "Id": "en-037",
+    "Language": "En",
+    "Quote": "Faith doesn't erase doubt, it walks beside it.",
+    "Author": null,
+    "Categories": [
+      "Faith"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/en/en-037.jpg"
+  },
+  {
+    "Id": "es-038",
+    "Language": "Es",
+    "Quote": "Las excusas son cómodas; el progreso no.",
+    "Author": null,
+    "Categories": [
+      "Motivation"
+    ],
+    "Style": "Abstract",
+    "ImagePath": "Content/Wallpapers/es/es-038.jpg"
+  },
+  {
+    "Id": "en-038",
+    "Language": "En",
+    "Quote": "Excuses are comfortable; progress isn't.",
+    "Author": null,
+    "Categories": [
+      "Motivation"
+    ],
+    "Style": "Abstract",
+    "ImagePath": "Content/Wallpapers/en/en-038.jpg"
+  },
+  {
+    "Id": "es-039",
+    "Language": "Es",
+    "Quote": "Una cosa a la vez, hecha de verdad.",
+    "Author": null,
+    "Categories": [
+      "Focus"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/es/es-039.jpg"
+  },
+  {
+    "Id": "en-039",
+    "Language": "En",
+    "Quote": "One thing at a time, done for real.",
+    "Author": null,
+    "Categories": [
+      "Focus"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/en/en-039.jpg"
+  },
+  {
+    "Id": "es-040",
+    "Language": "Es",
+    "Quote": "La disciplina elige por vos cuando la motivación se va.",
+    "Author": null,
+    "Categories": [
+      "Discipline"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/es/es-040.jpg"
+  },
+  {
+    "Id": "en-040",
+    "Language": "En",
+    "Quote": "Discipline chooses for you when motivation leaves.",
+    "Author": null,
+    "Categories": [
+      "Discipline"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/en/en-040.jpg"
+  },
+  {
+    "Id": "es-041",
+    "Language": "Es",
+    "Quote": "No se trata de hacer más, se trata de hacer lo que importa.",
+    "Author": null,
+    "Categories": [
+      "Productivity"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/es/es-041.jpg"
+  },
+  {
+    "Id": "en-041",
+    "Language": "En",
+    "Quote": "It's not about doing more, it's about doing what matters.",
+    "Author": null,
+    "Categories": [
+      "Productivity"
+    ],
+    "Style": "Nature",
+    "ImagePath": "Content/Wallpapers/en/en-041.jpg"
+  },
+  {
+    "Id": "es-042",
+    "Language": "Es",
+    "Quote": "Cada versión tuya de mañana se construye hoy.",
+    "Author": null,
+    "Categories": [
+      "SelfImprovement"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/es/es-042.jpg"
+  },
+  {
+    "Id": "en-042",
+    "Language": "En",
+    "Quote": "Tomorrow's version of you is built today.",
+    "Author": null,
+    "Categories": [
+      "SelfImprovement"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/en/en-042.jpg"
+  },
+  {
+    "Id": "es-043",
+    "Language": "Es",
+    "Quote": "Lo que depende de vos, hacelo bien. Lo demás, soltalo.",
+    "Author": null,
+    "Categories": [
+      "Stoicism"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/es/es-043.jpg"
+  },
+  {
+    "Id": "en-043",
+    "Language": "En",
+    "Quote": "What depends on you, do it well. Let the rest go.",
+    "Author": null,
+    "Categories": [
+      "Stoicism"
+    ],
+    "Style": "Minimalist",
+    "ImagePath": "Content/Wallpapers/en/en-043.jpg"
+  },
+  {
+    "Id": "es-044",
+    "Language": "Es",
+    "Quote": "Terminá lo que empezaste antes de empezar algo nuevo.",
+    "Author": null,
+    "Categories": [
+      "Work",
+      "Productivity"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/es/es-044.jpg"
+  },
+  {
+    "Id": "en-044",
+    "Language": "En",
+    "Quote": "Finish what you started before you start something new.",
+    "Author": null,
+    "Categories": [
+      "Work",
+      "Productivity"
+    ],
+    "Style": "Dark",
+    "ImagePath": "Content/Wallpapers/en/en-044.jpg"
+  },
+  {
+    "Id": "es-045",
+    "Language": "Es",
+    "Quote": "El tiempo perdido nunca se vuelve a encontrar.",
+    "Author": "Benjamin Franklin",
+    "Categories": [
+      "Discipline",
+      "Work"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/es/es-045.jpg"
+  },
+  {
+    "Id": "en-045",
+    "Language": "En",
+    "Quote": "Lost time is never found again.",
+    "Author": "Benjamin Franklin",
+    "Categories": [
+      "Discipline",
+      "Work"
+    ],
+    "Style": "Elegant",
+    "ImagePath": "Content/Wallpapers/en/en-045.jpg"
+  },
+  {
+    "Id": "es-046",
+    "Language": "Es",
+    "Quote": "Nada en la vida debe ser temido, solo comprendido. Ahora es el momento de comprender más, para temer menos.",
+    "Author": "Marie Curie",
+    "Categories": [
+      "Study",
+      "SelfImprovement"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/es/es-046.jpg"
+  },
+  {
+    "Id": "en-046",
+    "Language": "En",
+    "Quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+    "Author": "Marie Curie",
+    "Categories": [
+      "Study",
+      "SelfImprovement"
+    ],
+    "Style": "Light",
+    "ImagePath": "Content/Wallpapers/en/en-046.jpg"
+  }
+]

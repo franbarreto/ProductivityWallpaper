@@ -1,0 +1,82 @@
+# Compila las versiones portables y publica un Release con los .zip.
+#
+# Cómo usarlo: en GitHub, pestaña "Actions" > "Release" > "Run workflow",
+# escribir la versión (por ejemplo 1.1.0) y confirmar. También se dispara al
+# subir una etiqueta que empiece con "v" (por ejemplo v1.1.0).
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Versión (por ejemplo 1.1.0)"
+        required: true
+        default: "1.1.0"
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Resolver versión
+        shell: pwsh
+        env:
+          INPUT_VERSION: ${{ inputs.version }}
+          REF_NAME: ${{ github.ref_name }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          if ($env:EVENT -eq "workflow_dispatch") { $v = $env:INPUT_VERSION } else { $v = $env:REF_NAME.TrimStart("v") }
+          if ($v -notmatch '^\d+\.\d+\.\d+$') { throw "Versión inválida: $v (usar el formato 1.2.3)" }
+          "VERSION=$v" | Out-File -Append -Encoding utf8 $env:GITHUB_ENV
+
+      - name: Crear versiones portables
+        shell: pwsh
+        run: ./Crear-Portable.ps1
+
+      - name: Renombrar y calcular checksums
+        shell: pwsh
+        run: |
+          Set-Location portable
+          Rename-Item "ProductivityWallpaper-Portable-Autonomo.zip" "ProductivityWallpaper-$env:VERSION-Autonomo.zip"
+          Rename-Item "ProductivityWallpaper-Portable-Liviana.zip"  "ProductivityWallpaper-$env:VERSION-Liviana.zip"
+          Get-ChildItem *.zip | ForEach-Object {
+            $h = (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower()
+            "$h  $($_.Name)"
+          } | Set-Content -Encoding ascii SHA256SUMS.txt
+          Get-Content SHA256SUMS.txt
+
+      - name: Publicar Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $notes = @"
+          ## Productivity Wallpaper $env:VERSION
+
+          - **Autónoma** (recomendada): no necesita instalar nada. Descomprimí y abrí ``Iniciar.bat`` o ``ProductivityWallpaper.exe``.
+          - **Liviana**: pesa menos, pero necesita el Runtime de escritorio de .NET 8.
+
+          ### Si Windows muestra "Windows protegió su PC"
+          La app todavía no tiene firma digital, por eso SmartScreen la advierte. Hacé clic en **Más información** y luego en **Ejecutar de todas formas**. Podés verificar que el archivo no fue alterado comparando su hash con ``SHA256SUMS.txt``:
+          ``Get-FileHash .\archivo.zip -Algorithm SHA256``
+
+          En equipos de empresas o instituciones, una política de seguridad puede bloquear el .exe; en ese caso usá la versión Liviana con ``Iniciar.bat``.
+          "@
+          $notes | Set-Content -Encoding utf8 notes.md
+          gh release create "v$env:VERSION" `
+            "portable/ProductivityWallpaper-$env:VERSION-Autonomo.zip" `
+            "portable/ProductivityWallpaper-$env:VERSION-Liviana.zip" `
+            "portable/SHA256SUMS.txt" `
+            --title "Productivity Wallpaper $env:VERSION" `
+            --notes-file notes.md `
+            --target $env:GITHUB_SHA

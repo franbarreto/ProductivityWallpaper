@@ -1,0 +1,17 @@
+# Generado al compilar
+bin/
+obj/
+publish/
+portable/
+installer/output/
+
+# Visual Studio / editores
+.vs/
+*.user
+*.suo
+.vscode/
+
+# Datos locales de la app y sistema
+Data/
+error.log
+Thumbs.db

@@ -1,0 +1,65 @@
+<Window x:Class="ProductivityWallpaper.App.Widgets.DesktopWidgetWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:w="clr-namespace:ProductivityWallpaper.App.Widgets"
+        xmlns:pres="clr-namespace:ProductivityWallpaper.App.Presentation"
+        Title="Productivity Wallpaper Widget"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        ShowInTaskbar="False" ShowActivated="False" Topmost="False"
+        ResizeMode="NoResize" SizeToContent="WidthAndHeight"
+        FontFamily="{StaticResource AppFontFamily}">
+    <!-- Ventana flotante sin bordes, transparente, que no aparece en la barra
+         de tareas ni roba el foco. Su Content es el ViewModel del widget y el
+         DataTemplate de abajo decide cómo se dibuja. -->
+    <Window.Resources>
+
+        <!-- Barra de progreso minimalista (pista + relleno redondeados). -->
+        <Style x:Key="DayBar" TargetType="ProgressBar">
+            <Setter Property="Minimum" Value="0" />
+            <Setter Property="Maximum" Value="100" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ProgressBar">
+                        <Grid>
+                            <Border x:Name="PART_Track" Background="#33FFFFFF" CornerRadius="4" />
+                            <Border x:Name="PART_Indicator" Background="{StaticResource AccentBrush}"
+                                    CornerRadius="4" HorizontalAlignment="Left" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <DataTemplate DataType="{x:Type w:ClockWidgetViewModel}">
+            <Border Background="{Binding CardBackground}" CornerRadius="{Binding CardCornerRadius}"
+                    Padding="{Binding CardPadding}">
+                <StackPanel>
+                    <TextBlock Text="{Binding TimeText}" FontSize="{Binding TimeFontSize}" FontWeight="Light"
+                               Foreground="White" HorizontalAlignment="Center"
+                               Effect="{Binding TextEffect}" />
+                    <TextBlock Text="{Binding DateText}" FontSize="{Binding DateFontSize}"
+                               Foreground="#E6FFFFFF" HorizontalAlignment="Center"
+                               Effect="{Binding TextEffect}"
+                               Visibility="{Binding HasDate, Converter={StaticResource BoolToVisibilityConverter}}" />
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type w:DayProgressWidgetViewModel}">
+            <Border Background="{Binding CardBackground}" CornerRadius="{Binding CardCornerRadius}"
+                    Padding="{Binding CardPadding}">
+                <StackPanel Width="{Binding BarWidth}">
+                    <TextBlock Text="{Binding Title}" FontSize="{Binding LabelFontSize}"
+                               Foreground="#E6FFFFFF" Effect="{Binding TextEffect}" />
+                    <TextBlock Text="{Binding PercentText}" FontSize="{Binding PercentFontSize}" FontWeight="Light"
+                               Foreground="White" Effect="{Binding TextEffect}" />
+                    <ProgressBar Style="{StaticResource DayBar}" pres:Motion.AnimatedValue="{Binding Progress, Mode=OneWay}"
+                                 Height="{Binding BarHeight}" Margin="0,6,0,8" />
+                    <TextBlock Text="{Binding RemainingText}" FontSize="{Binding LabelFontSize}"
+                               Foreground="#E6FFFFFF" Effect="{Binding TextEffect}" />
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+
+    </Window.Resources>
+</Window>

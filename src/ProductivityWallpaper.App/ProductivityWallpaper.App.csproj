@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <!-- Necesario solo para System.Windows.Forms.NotifyIcon (ícono de bandeja
+         del sistema): WPF no tiene un control nativo propio para eso.
+         Es una referencia de framework incluida con el SDK de .NET, no un
+         paquete NuGet, así que no agrega nada que haya que descargar. -->
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>ProductivityWallpaper.App</RootNamespace>
+    <AssemblyName>ProductivityWallpaper</AssemblyName>
+    <ApplicationIcon>Assets\app.ico</ApplicationIcon>
+    <Version>1.1.0</Version>
+    <!-- Solo se empaquetan los textos de .NET en inglés y español: las demás
+         carpetas de idiomas del SDK no se usan y engordan el publish. -->
+    <SatelliteResourceLanguages>en;es</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductivityWallpaper.Core\ProductivityWallpaper.Core.csproj" />
+    <ProjectReference Include="..\ProductivityWallpaper.Infrastructure\ProductivityWallpaper.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Imágenes de wallpaper: se copian al directorio de salida manteniendo
+         la carpeta Content/Wallpapers/... tal como la resuelve el repositorio
+         (AppContext.BaseDirectory + ImagePath del catálogo). -->
+    <Content Include="Content\Wallpapers\**\*.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <!-- Ícono de la app: se copia al output para que MainWindow.Icon y el
+         ícono de la bandeja del sistema (NotifyIcon) lo puedan cargar en
+         tiempo de ejecución. -->
+    <Content Include="Assets\app.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

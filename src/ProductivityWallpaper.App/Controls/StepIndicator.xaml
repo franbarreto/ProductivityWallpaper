@@ -1,0 +1,9 @@
+<UserControl x:Class="ProductivityWallpaper.App.Controls.StepIndicator"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Puntos de progreso del onboarding (Idioma → Intereses → Estilo →
+         Frecuencia → Resumen). Los puntos en sí se arman en el code-behind
+         (StepCount/CurrentStep son dependency properties), no hay binding
+         de datos acá: el indicador es puramente decorativo/orientativo. -->
+    <StackPanel x:Name="Dots" Orientation="Horizontal" HorizontalAlignment="Center" />
+</UserControl>

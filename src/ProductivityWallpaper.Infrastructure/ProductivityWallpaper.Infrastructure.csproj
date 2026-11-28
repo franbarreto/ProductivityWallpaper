@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ProductivityWallpaper.Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductivityWallpaper.Core\ProductivityWallpaper.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- El catálogo viaja embebido en el assembly: no depende del directorio
+         de trabajo desde el que se ejecute la app. -->
+    <EmbeddedResource Include="Content\wallpapers.json" />
+  </ItemGroup>
+
+</Project>
